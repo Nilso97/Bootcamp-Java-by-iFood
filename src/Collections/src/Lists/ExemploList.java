@@ -46,19 +46,19 @@ public class ExemploList {
 		
 		System.out.println("Desafio 6 - Exiba todas as notas na ordem em que foram informadas: ");
 		for (Double nota : notas) System.out.println(nota);
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 7 - Exiba a terceira nota adicionada: " + notas.get(2).toString());
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 8 - Exiba a menor nota: " + Collections.min(notas));
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 9 - Exiba a maior nota: " + Collections.max(notas));
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 10 - Exiba a soma dos valores: ");
@@ -69,23 +69,23 @@ public class ExemploList {
 			soma += next;
 		}
 		System.out.println(soma);
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 11 - Exiba a média das notas: " + (soma / notas.size()));
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 12 - Remova a nota 0: ");
 		notas.remove(0d); // ou desta forma ==> notas.remove(notas.indexOf(0d));
 		System.out.println(notas);
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 13 - Remova a nota na posição 0: ");
 		notas.remove(0);
 		System.out.println(notas);
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 14 - Remova as notas menores que 7 e exiba a lista: ");
@@ -95,13 +95,13 @@ public class ExemploList {
 			if (next < 7) iterator1.remove();
 		}
 		System.out.println(notas);
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 15 - Apague toda a lista: ");
 		notas.clear();
 		System.out.println(notas);
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 
 		
 		System.out.println("Desafio 16 - Confira se a lista está vazia: " + notas.isEmpty());
@@ -122,7 +122,7 @@ public class ExemploList {
 		
 		
 		System.out.println("Desafio 2 - Mostre a primeira nota da nova lista sem removê-la: " + notas2.get(0));
-        System.out.println("-------------------------------------------------------");
+                System.out.println("-------------------------------------------------------");
 		
 		
 		System.out.println("Desafio 2 - Mostre a primeira nota da nova lista removendo-a: ");
