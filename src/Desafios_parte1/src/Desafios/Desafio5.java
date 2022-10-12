@@ -39,7 +39,7 @@ public class Desafio5 {
 
 /*
  * 
- * Outra forma de realizar o Exercício 5
+ * Outra forma de realizar o Desafio 5
  *
  * 
 package Desafios;
