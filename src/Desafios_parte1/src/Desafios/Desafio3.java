@@ -10,11 +10,10 @@ public class Desafio3 {
 
         //TODO: Imprima o somatório de N (utilize o método "somatorio").
         // System.out.print("Informe um valor: ");
-		    int valor = somatorio(numero.nextInt());
+        int valor = somatorio(numero.nextInt());
 		
-		    System.out.println(valor);
-		
-		    numero.close();
+        System.out.println(valor);
+	numero.close();
     }
 
     /**
