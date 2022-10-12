@@ -1,4 +1,6 @@
-import java.util.*;
+package Desafios;
+
+import java.util.Scanner;
 
 public class Desafio3 {
 
