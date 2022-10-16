@@ -14,7 +14,7 @@ public class ExemploMap {
 	/**
 	 * 
 	 * @HashMap --------> ordem aleatória
-	 * @LinkedHashMap --> ordem de insersão
+	 * @LinkedHashMap --> ordem de inserção
 	 * @TreeMap --------> ordem natural (ordem alfabética)
 	 */
 
