@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "TB_USERS")
 public class User {
     
-    @Id // PRIMARY KEY SQL
+    @Id // PRIMARY KEY
     @GeneratedValue(strategy = GenerationType.IDENTITY) // AUTO_INCREMENT
     @Column(name = "user_id")
     private Integer id;
